@@ -1,12 +1,9 @@
 package hello.springapi.trace.strategy;
 
-import hello.springapi.trace.strategy.code.ContextV1;
-import hello.springapi.trace.strategy.code.Strategy;
-import hello.springapi.trace.strategy.code.StrategyLogic1;
-import hello.springapi.trace.strategy.code.StrategyLogic2;
-import hello.springapi.trace.template.code.AbstractTemplate;
-import hello.springapi.trace.template.code.SubClassLogic1;
-import hello.springapi.trace.template.code.SubClassLogic2;
+import hello.springapi.trace.strategy.code.strategy.ContextV1;
+import hello.springapi.trace.strategy.code.strategy.Strategy;
+import hello.springapi.trace.strategy.code.strategy.StrategyLogic1;
+import hello.springapi.trace.strategy.code.strategy.StrategyLogic2;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
